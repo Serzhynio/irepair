@@ -1,0 +1,70 @@
+.contact_header_ipad {
+	margin-bottom: 165px;
+}
+
+.main_contacts_ipad {
+	margin-bottom: 40px !important;
+}
+
+.contacts_block {
+	margin: 60px 0 25px 0;
+	.img_block {
+		margin-bottom: 55px;
+		.img_place {
+			border-radius: 20px;
+			margin-right: 20px;
+			cursor: pointer;
+			height: 250px;
+			width: 320px;
+		}
+	}
+	.icon_place {
+		color: #da251c;
+	}
+	.adress {
+		vertical-align: top;
+		margin-right: 20px;
+		width: 37%;
+		.span_adress {
+			font-family: $main-font;
+			margin-left: 15px;
+			font-size: 27px;
+			color: #fff;
+		}
+		.adress_desc {
+			font-family: $main-font;
+  			margin: 15px 0 0 50px;
+		  	color: antiquewhite;
+			font-weight: bold;
+		  	font-size: 20px;
+		}
+	}
+	.schedule {
+		margin: 0 10px 0 60px;
+		vertical-align: top;
+		width: 23%;
+		.span_schedule {
+			font-family: $main-font;
+			font-size: 27px;
+			color: #fff;
+		}
+		.schedule_text {
+			font-family: $main-font;
+  			margin: 5px 0 10px 0;
+			font-weight: bold;
+			color: antiquewhite;
+		  	font-size: 18px;
+		}
+	}
+	.phone {
+		vertical-align: top;
+		width: 23%;
+		.contact_text {
+			font-family: $main-font;
+  			margin: 5px 0 10px 0;
+			font-weight: bold;
+			color: antiquewhite;
+		  	font-size: 18px;
+		}
+	}
+}

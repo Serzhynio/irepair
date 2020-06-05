@@ -1,0 +1,40 @@
+.footer_ipad_other {
+	width: 100%;
+	.bg_footer {
+		background-color: rgba(0, 0, 0, 0.3);
+		overflow: hidden;
+		.oglayd {
+			margin-left: 20px;
+			.oglyad_text {
+				font-family: $main-font;
+				font-size: 15px;
+  				padding: 15px;
+ 				width: 135px;
+				color: #fff;
+				&:hover {
+					text-decoration: none;
+					color: #fff;
+				}
+			}
+			.ogl {
+				vertical-align: baseline;
+				height: 40px;
+			  	width: 90px;
+				margin: 0 0 0 15px;
+			}
+		}
+	}
+	.copy {
+		font-family: $main-font;
+  		margin-right: 2%;
+		font-size: 14px;
+		margin-top: 2%;
+		color: snow;
+		a {
+			color: wheat;
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+}

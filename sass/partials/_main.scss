@@ -1,0 +1,65 @@
+.main_ipad {
+	margin-bottom: 17px;
+	.block_title_home {
+		margin-bottom: 20px;
+		width: 79%;
+		.img_wrench {
+			vertical-align: middle;
+		}
+		.title_text {
+			font-family: $main-font;
+			margin-left: 20px;
+			font-size: 36px;
+			color: #fff;
+		}
+	}
+	.block_icons {
+		vertical-align: top;
+		margin: 10px 51px 40px 51px;
+		width: 11%;
+		&:hover {
+  			color: #337ABF;
+  		}
+  		.icons_block_home { 
+			&:hover {
+				text-decoration: none;
+				overflow: hidden;
+				background-color: #337ABF;
+			}
+  		}
+		.icons_img {
+			display: table;
+			margin: auto;
+			height: 96px;
+			width: auto;
+		}
+		.icon_description {
+		  	font-family: $main-font;
+			text-align: center;
+	  		margin-top: 10px;
+	  		font-size: 25px;
+	  		color: #fff;
+		  	transition: all 0.4s ease;
+	  		&:hover {
+	  			color: #337ABF;
+	  		}
+		}	
+	}
+}
+.list_block {
+	margin: 15px 0 15px 0;
+	.title_home_list {
+		font-family: $main-font;
+		font-weight: bold;
+		font-size: 21px;
+	}
+	.home_list {
+  		margin-left: 15px;
+	  	margin-top: 10px;
+		a {
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+}

@@ -1,0 +1,33 @@
+.about_header_ipad {
+	margin-bottom: 65px !important;
+}
+
+.main_ipad {
+	.about_description {
+		font-family: $main-font;
+		margin-bottom: 20px;	  	
+		line-height: 30px;
+		font-size: 22px;
+  		overflow: auto;
+	  	color: #337ABF;
+	 	height: 255px;
+  		width: 100%;
+  		&::-webkit-scrollbar {
+  			display: none;
+  		}
+	 	.service_bold {
+	 		font-weight: bold;
+	 		font-size: 24px;
+	 		color: #fff;
+	 	}
+	}
+ 	.sertificate {
+ 		display: table;
+ 		margin: auto;
+ 		margin-bottom: 25px;
+ 		img {
+ 			height: 286px;	
+ 			width: auto;
+ 		}
+ 	}
+}

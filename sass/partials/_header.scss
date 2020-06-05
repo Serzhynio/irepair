@@ -1,0 +1,45 @@
+.container {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.header_ipad {
+  	margin-bottom: 75px;	
+	padding-top: 95px;
+	.bg_header {
+		background-color: rgba(0, 0, 0, 0.3);
+		.logo {
+			padding: 20px 0 20px 0;
+			vertical-align: middle;
+			margin: 0 5% 0 5%;
+			width: 20%;
+		}
+		.adress_header {
+			font-family: $main-font;
+			vertical-align: middle;
+		  	margin: 0 3% 0 3%;
+			color: #fff;
+			width: 20%;
+		}
+		.header_icon {
+			font-size: 35px;
+		}
+		.text_desc {
+		  	font-size: 20px;
+			margin-left: 4%;
+		}
+		.phone_header {
+			font-family: $main-font;
+			vertical-align: middle;
+			margin: 0 3% 0 3%;
+			color: #fff;
+			width: 37%;
+			.text_element {
+				margin-left: 5%;
+			}
+		}
+	}
+}
+
+.display {
+	display: inline-block;
+}	
